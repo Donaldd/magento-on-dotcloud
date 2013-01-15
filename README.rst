@@ -14,7 +14,7 @@ Then clone this repository, and push it to dotCloud::
 
   git clone git://github.com/Donaldd/magento-on-dotcloud.git
   cd magento-on-dotcloud
-  echo "<?php" > magento/wp-salt.php ; curl https://api.magento.org/secret-key/1.1/salt/ >> magento/wp-salt.php
+  echo "<?php" > magento/wp-salt.php ; curl https://api.wordpress.org/secret-key/1.1/salt/ >> magento/wp-salt.php
   dotcloud create mymagentoapp 
   dotcloud push
 
